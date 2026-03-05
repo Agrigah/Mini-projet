@@ -12,23 +12,6 @@ Chaînes de Markov — évaluer la robustesse du plan face à l'incertitude stoc
 
 Le paramètre ε ∈ [0, 1] modélise l'incertitude : avec probabilité (1−ε) l'agent suit la direction prévue, et avec probabilité ε il dévie vers un voisin latéral.
 
-📁 Structure du Projet
-mini-projet/
-│
-├── grid.py           # Définition des 3 grilles et utilitaires
-├── astar.py          # Algorithmes : UCS, Greedy, A*, heuristiques
-├── markov.py         # Construction P(i,j), évolution Pⁿ, absorption
-├── simulation.py     # Simulation Monte-Carlo des trajectoires
-├── experiments.py    # Script principal — génère toutes les figures
-├── notebook.ipynb    # Notebook Jupyter interactif
-│
-└── outputs/          # Figures générées automatiquement
-    ├── exp1_grilles.png          # Chemins UCS/Greedy/A* superposés
-    ├── exp1_comparaison.png      # Métriques comparatives
-    ├── exp2_epsilon.png          # P(GOAL,n) pour 4 valeurs de ε
-    ├── exp3_heuristiques.png     # Nœuds développés selon h
-    ├── exp4_markov.png           # Distribution temps + convergence
-    └── exp5_matrices_P.png       # Heatmap matrices P(i,j)
 
 ⚙️ Installation
 Prérequis
